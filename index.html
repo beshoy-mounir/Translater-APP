@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Translator App</title>
+        <!-- Icon -->
+        <link rel="Icon" href="translator.ico" />
+        <!-- Style -->
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <main class="flex">
+            <div class="wrapper">
+                <div class="container flex">
+                    <section class="header flex">
+                        <h1>Translator App</h1>
+                    </section>
+                    <section class="text-Area flex">
+                        <textarea id="inputText"></textarea>
+                        <textarea
+                            type="text"
+                            id="textResult"
+                            readonly></textarea>
+                    </section>
+                    <section class="options flex">
+                        <select name="" id="inputSelection"></select>
+                        <select name="" id="outputSelection"></select>
+                    </section>
+                    <section class="btn flex">
+                        <button id="btn">Translate</button>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <script src="countries.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
